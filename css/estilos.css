@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+li{
+    float: inline-end;
+}
+
+
+/* class */
+
+.imgheader{
+    width: 100%;
+}
+
+.tituloh1{
+    text-align: center;
+}
+
+.titulosh2{
+    margin-left: 5%;
+    font-size: 25px;
+
+}
+
+.titulosh3{
+    text-align: center;
+
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.txtdiscos{
+    width: 1000%;
+    text-align: center;
+    ;
+}
+
+.imgdiscos{
+    width: 70%;
+    position: relative;
+    display: flex;
+
+}
+
+.momentoshistoricos{
+    border: #000;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgmomentos{
+    width: 100%;
+}
+
+.txtmomentos{
+    width: 100%;
+
+}
+
+.discos{
+    width: 15%;
+   margin: 5%;
+}
+
+
+/* id */
+
+#biografia{
+
+}
+
+#txtbiografia{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+
+#imgbiografia{
+    width: 30%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#discosdesta{
+    flex-wrap: wrap;
+    position: absolute;
+    position: relative;
+    display: flex;
+}
+
+#txtfooter{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#opera{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+
+#queenii{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#jazz{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#world{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#heart{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#attack{
+    width: 100%;
+}
+
+#queen{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#races{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#innuendo{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+#barcelona{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#keep{
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#impr{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#rhap{
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#live{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#olimpiadas{
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#fotoolimpiadas{
+    width: 50%;
+}
+
