@@ -6,15 +6,14 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-li{
-    float: inline-end;
-}
+
 
 
 /* class */
+
 
 .imgheader{
     width: 100%;
@@ -22,11 +21,13 @@ li{
 
 .tituloh1{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .titulosh2{
     margin-left: 5%;
     font-size: 25px;
+    margin-bottom: 20px;
 
 }
 
@@ -39,25 +40,11 @@ li{
     clear: both;
 }
 
-.txtdiscos{
-    width: 1000%;
-    text-align: center;
-    ;
-}
 
-.imgdiscos{
-    width: 70%;
-    position: relative;
-    display: flex;
 
-}
 
-.momentoshistoricos{
-    border: #000;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
+
 
 .imgmomentos{
     width: 100%;
@@ -68,24 +55,26 @@ li{
 
 }
 
-.discos{
-    width: 15%;
-   margin: 5%;
-}
+
 
 
 /* id */
+
+
+
+/* biografia */
 
 #biografia{
 
 }
 
 #txtbiografia{
-    width: 40%;
+    width: 50%;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 #imgbiografia{
@@ -95,59 +84,81 @@ li{
     margin-right: 5%;
 }
 
-#discosdesta{
-    flex-wrap: wrap;
-    position: absolute;
-    position: relative;
-    display: flex;
-}
+#discosdesta{}
+    
 
 #txtfooter{
-    position: absolute;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+  
 }
 
-#opera{
-    position: absolute;
-    position: relative;
+
+
+/* discos */
+.discos{
+    width: 15%;
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imgdiscos{
+    width: 100%;
+    object-position: center;
+    
+}
+
+.txtdiscos{
+    width: 100%;
+    text-align: left;
+}
+
+
+#opera{
+    flex: none;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 5%;
 }
 
 
 #queenii{
-    position: absolute;
-    position: relative;
+    flex: none;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    float: left;
 }
 
 #jazz{
-    position: absolute;
-    position: relative;
+    flex: none;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    float: left;
 }
 
 #world{
-    position: absolute;
-    position: relative;
+    flex: none;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 #heart{
-    position: absolute;
-    position: relative;
+    flex: none;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    float: left;
 }
 
 #attack{
@@ -155,72 +166,105 @@ li{
 }
 
 #queen{
-    position: absolute;
-    position: relative;
+    flex: none;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 25%;
 }
 
 #races{
-    position: absolute;
-    position: relative;
+    flex: none;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 25%;
 }
 
 #innuendo{
-    position: absolute;
-    position: relative;
+    flex: none;
+    width: 25%;
+    margin-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    
 }
+
+
+
+
+/* momentos*/
+
+.momentoshistoricos{
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 #barcelona{
     float: left;
     width: 40%;
     margin-left: 5%;
-    margin-right: 5%;
+    border: #000 2px solid;
+    padding: 3px;
 }
 
 #keep{
     float: right;
-    width: 40%;
-    margin-left: 5%;
+    width:  40%;
     margin-right: 5%;
+    border: #000 2px solid;
+    padding: 3px;
 }
 
 #impr{
     float: left;
     width: 40%;
     margin-left: 5%;
-    margin-right: 5%;
+    border: #000 2px solid;
+    padding: 3px;
 }
 
 #rhap{
     float: right;
     width: 40%;
-    margin-left: 5%;
     margin-right: 5%;
+    border: #000 2px solid;
+    padding: 3px;
 }
 
 #live{
     float: left;
     width: 40%;
     margin-left: 5%;
-    margin-right: 5%;
+    border: #000 2px solid;
+    padding: 3px;
 }
 
-#olimpiadas{
+#olimpiada{
     float: right;
     width: 40%;
-    margin-left: 5%;
+    
     margin-right: 5%;
+    border: #000 2px solid;
+    padding: 3px;
 }
 
 #fotoolimpiadas{
-    width: 50%;
+    width: 100%;
+  
+
 }
 
+#txtolimpiadas{
+    width: 100%;
+    
+}
